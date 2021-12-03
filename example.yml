@@ -23,3 +23,4 @@ pipelines:
           onExecute:
             - echo "executing step..."
             - jfrog rt dl example-repo-local/package.json
+            - tar -czvf test.tar package.json
