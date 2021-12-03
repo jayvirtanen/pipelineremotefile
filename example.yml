@@ -3,7 +3,9 @@ resources:
     type: RemoteFile
     configuration:
       source: jaytest 
- 
+      fileName: test.tar
+      fileLocation: example-repo-local/
+      
 pipelines:
   - name: pipelines_1
     steps:
